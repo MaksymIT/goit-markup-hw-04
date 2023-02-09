@@ -171,6 +171,10 @@ img {
    gap: 48px 24px;
    flex-wrap: wrap;
 }
+.card:hover,
+.card:focus {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
 /* slogan-portfolio */
 .slogan-portfolio {
@@ -237,6 +241,15 @@ img {
     background: #2E2F42;
     text-align: center;
     padding: 188px 0px;
+    
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)), url(../images/hero/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .caption-hero {
     font-weight: 700;
@@ -266,6 +279,21 @@ img {
 }
 
 /* section 2 */
+
+.list-picture {
+    display: flex;
+    gap: 24px;
+}
+.picture {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F4F4FD;
+    border-radius: 4px;
+}
+.svg-picture {
+    padding: 24px 100px;
+}
 .list-studio {
     display: flex;
 }
@@ -307,6 +335,7 @@ img {
 .cards {
    background-color: #FFFFFF;
    border-radius: 0px 0px 4px 4px;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .img:not(:last-child) {
     margin-right: 24px;
@@ -322,10 +351,73 @@ img {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 .card-content {
     text-align: center;
     padding: 32px 16px 32px 16px;
+}
+.list-icon {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.icon{
+    list-style: none;
+}
+.icons {
+    fill: #F4F4FD;
+}
+.icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: #4D5AE5;
+    border-radius: 50%;
+}
+.icon-link:hover,
+.icon-link:focus {
+    background: #404BBF;
+}
+/* section customers */
+.section-customers {
+    padding: 120px 0px 130px 0px;
+}
+.customers {
+    text-align: center;
+    margin-bottom: 72px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    color: #2E2F42;
+}
+.logo-customers {
+    list-style: none;
+    cursor: pointer;
+}
+.list-logo {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.logo-customers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    fill: #8E8F99;
+}
+.logo-customers:hover,
+.logo-customers:focus {
+    fill: #404BBF;
+}
+.svg-customers {
+    padding: 16px 32px;
 }
 /* footer portfolio and studio */
 .footer {
@@ -346,4 +438,34 @@ img {
     line-height: 1.5;
     color: #E7E9FC;
     margin-top: 16px;
+    margin-right: 120px;
+}
+.soc-media {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.list-icon-footer {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+
+}
+.icon-footer {
+    list-style: none;
+}
+.icon-link-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);;
+    border-radius: 50%;
+}
+.icon-social-media {
+    fill: #F4F4FD;
 }
