@@ -425,6 +425,13 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     font-size: 18px;
     line-height: 1.1;
     padding: 100px 0px;
+   
+}
+.container-logo {
+   display: flex;
+}
+.container-logo-footer {
+    margin-right: 120px;
 }
 
 /* footer-logo*/
@@ -447,6 +454,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     font-size: 16px;
     line-height: 24px;
     color: #FFFFFF;
+    margin-bottom: 16px;
 }
 .list-icon-footer {
     display: flex;
@@ -465,6 +473,10 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     height: 40px;
     background: rgba(255, 255, 255, 0.1);;
     border-radius: 50%;
+}
+.icon-link-footer:hover,
+.icon-link-footer:focus {
+    background: rgba(49, 208, 170, 1);
 }
 .icon-social-media {
     fill: #F4F4FD;
