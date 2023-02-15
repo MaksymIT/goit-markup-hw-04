@@ -47,6 +47,7 @@ img {
 }
 .header {
     border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 /* logo portfolio and studio*/
@@ -136,6 +137,10 @@ img {
 }
 .list-filter-button .item-button:not(:last-child) {
     margin-right: 24px;
+}
+.item-button:hover,
+.item-button:focus {
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .filter-button {
     padding-top: 12px;
@@ -283,6 +288,7 @@ img {
 .list-picture {
     display: flex;
     gap: 24px;
+    margin-bottom: 8px 
 }
 .picture {
     display: flex;
@@ -415,6 +421,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .logo-customers:hover,
 .logo-customers:focus {
     fill: #404BBF;
+    border-color: #404BBF;
 }
 .svg-customers {
     padding: 16px 32px;
